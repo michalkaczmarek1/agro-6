@@ -1,0 +1,476 @@
+@import url('reset.css');
+
+/* Globalne style */
+
+body {
+	background-image: url('../img/tlo_1.jpg');
+	min-height: 660px;
+	font-family: helvetica;
+}
+
+.container {
+	margin: 15px auto;
+	width: 900px;
+	min-height: 100%;
+	background-image: url('../img/tlo_2.jpg');
+	border-radius: 20px;
+	border-style: solid;
+
+}
+
+h3 {
+	font-size: 20px;
+}
+
+
+/* Naglowek */
+
+.header {
+	height: 60px;
+	column-count: 2;
+}
+
+.logo {
+	width: 20%;
+	height: 55px;
+	position: relative;
+	left: 10px;
+	background-image: url('../img/logo.jpg');
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+.logo a {
+	text-transform: uppercase;
+	color: #1A8030;
+	text-decoration: none;
+	padding: 5px; 
+	border-radius: 10px;
+	font-size: 20px;
+	display: inline;
+	font-weight: bolder;
+	position: relative;
+	top: 20px;
+}
+
+.nav-top {
+	float: right;
+	line-height: 70px;
+	height: 70px;	
+}
+
+#top-menu li {
+	display: inline;
+	padding: 1px 2px;
+	margin-left: 2px;
+	position: relative;
+	right: 6px;
+}
+
+#top-menu li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 10px;
+	width: 4em;
+	padding: 5px;
+}
+
+/* Główna zawartość */
+
+.content {
+	width: 100%;
+	height: 525px;
+}
+
+.main-content {
+	width: 100%;
+}
+
+.left-c {
+	width: 20%;
+	height: 400px;
+	float: left;
+	padding: 0 5px;
+	margin-left: 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.nav-main {
+	width: 100%;
+	height: 320px;
+	position: relative;
+	top: 20px;
+	text-transform: uppercase;
+	border-radius: 20px;
+}
+
+.nav-main li {
+	position: relative;
+	top: 25px;
+	padding: 5px 10px 10px 10px;
+	margin-top: 5px;
+}
+
+.nav-main li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.lavalamp-object {
+    background-color: #54303E;
+    width: 100%;
+    height: 17px;
+}
+
+.active {
+	background-color: #54303E;
+}
+
+.welcome {
+	width: 52%;
+	height: 12em;
+	background-image: url('../img/tlo_3.jpg');
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	display: inline-block;
+	border-radius: 40px;
+}
+
+.welcome h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.welcome p {
+	padding: 10px;
+	font-size: 17px;
+	text-align: center;
+	text-align: justify;
+	position: relative;
+	top: 20px;
+	line-height: 25px;
+}
+
+.right-c {
+	width: 22%;
+	float: right;
+	height: 320px;
+	background-color: #5F5C5C;
+	border-radius: 30px;
+	position: relative;
+	top: 20px;
+	margin-right: 8px;
+	padding: 9px;
+	color: #FFFFFF
+}
+
+.right-c h3 {
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+.right-c p {
+	text-align: center;
+	position: relative;
+	top: 35px;	
+	line-height: 18px;
+}
+
+.right-c li {
+	position: relative;
+	top: 35px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.right-c li a {
+	color: #FFFFFF;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.additional-content {
+	width: 100%;
+	height: 104px;
+	clear: both;
+	position: relative;
+	top: 20px;
+}
+
+.additional-content h3 {
+	text-transform: uppercase;
+	position: relative;
+	top: 10px;
+	left: 355px;
+	color: #FFFFFF;
+}
+
+.additional-content li {
+	display: inline;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	top: 14px;
+	left: 140px;
+	
+}
+
+.additional-content li a {
+	text-decoration: none;
+	padding: 10px 10px 5px 10px;
+	font-weight: 600;
+}
+
+/* Stopka */
+
+.footer {
+	width: 100%;
+	height: 50px;
+}
+
+.footer p {
+	float: right;
+	position: relative;
+	top: 30px;
+	right: 5px;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.nav-footer {
+	position: relative;
+	top: 25px;
+	left: 248px;
+}
+
+.nav-footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+#nav-down li {
+	display: inline;
+	padding: 0 2px;
+	margin-left: 8px;
+}
+
+#nav-down li a {
+	padding: 0 4px;
+}
+
+/* Podstrona about */
+
+.about-content {
+	width: 52%;
+	height: 373px;
+	background-image: url('../img/tlo_3.jpg');
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	display: inline-block;
+	border-radius: 40px;
+}
+
+.about-content h2 {
+	font-size: 20px;
+	position: relative;
+	left: 20px;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+.about-content p {
+	line-height: 18px;
+	padding: 5px 10px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+/* podstrona acitvity */
+
+.activity-content {
+	width: 52%;
+	background-image: url('../img/tlo_3.jpg');
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	display: inline-block;
+	border-radius: 40px;
+}
+
+.activity-content h2 {
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	top: 10px;
+	left: 17px;
+	padding: 5px;
+}
+
+.activity-content h3 {
+	font-size: 18px;
+	margin: 5px 0;
+	font-weight: 500;
+	text-align: center;
+	padding: 7px;
+}
+
+.activity-content p {
+	text-align: justify;
+	margin: 5px 0;
+	padding: 10px;
+	margin-bottom: 8px;
+	font-size: 15px
+}
+
+.activity-content li {
+	text-align: left;
+	list-style-type: upper-roman;
+	position: relative;
+	left: 20px;
+	margin-left: 5px;
+	font-size: 15px;
+}
+
+/* podstrona photos */
+
+.photos-content {
+	display: inline-block;
+	width: 52%;
+	background-image: url('../img/tlo_3.jpg');
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	border-radius: 40px;
+}
+
+.photos-content h3 {
+	margin-bottom: 30px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	font-weight: 600;
+}
+
+.photos-content a {
+	display: inline-block;
+	padding: 10px 5px;
+	text-decoration: none;
+	color: #000000;
+	width: 120px;
+	position: relative;
+	left: 20px;
+	margin-right: 5px;
+}
+
+.photos-content p {
+	font-size: 10px;
+	display: inline-block;
+	position: relative;
+	top: -7px;
+	padding-left: 3px;
+	margin-top: 7px;
+	text-align: center;
+}
+
+#gal {
+	position: relative;
+	top: -30px;
+}
+#gal a img {
+	margin-right: 5px;
+}
+
+#page {
+	position: relative;
+	left: 360px;
+	top: -47px;
+	font-size: 12px;
+	text-transform: uppercase;
+	width: 5.3em;
+}
+
+/* podstrona contact */
+
+.contact-content {
+	width: 52%;
+	height: 390px;
+	margin: 0 auto;
+	position: relative;
+	top: 25px;
+	display: inline-block;
+	background-image: url('../img/tlo_3.jpg');
+	border-radius: 40px;
+}
+
+.contact-content iframe {
+	position: relative;
+	top: 0px;
+	left: 50px;
+}
+
+.contact-data {
+	position: relative;
+	top: 40px;
+	line-height: 20px;
+	padding: 0 10px;
+}
+.contact-content h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	top: -20px;
+}
+
+.contact-content h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	position: relative;
+	top: -10px;
+}
+
+.contact-content p {
+	text-align: left;
+	font-size: 12px;
+	position: relative;
+	top: -16px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
